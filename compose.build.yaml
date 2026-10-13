@@ -1,0 +1,7 @@
+# Optional local source build. Default compose.yaml only pulls a ready-made image.
+services:
+  app:
+    image: qingzhang:local
+    build:
+      context: .
+      dockerfile: Dockerfile

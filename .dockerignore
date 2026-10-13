@@ -1,0 +1,12 @@
+.git
+.github
+node_modules
+web
+data
+work
+.env
+.env.*
+*.sqlite*
+*.zip
+*.tar.gz
+tests
